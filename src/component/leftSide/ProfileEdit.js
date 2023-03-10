@@ -69,7 +69,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
       >
         <header
           className=" py-1.5 px-3 bg-white select-none dark:bg-[#212121]
-           sticky top-0 h-[8vh] z-50"
+           sticky top-0 h-[8vh] z-50 "
         >
           <div className=" flex gap-4 items-center">
             <button
@@ -91,7 +91,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
          bg-[#4A95D6] flex items-center justify-center cursor-pointer"
               onClick={updateProfile}
             >
-              <Toaster />
+              <Toaster position="bottom-center" />
               <CheckRoundedIcon className="text-white" />
             </div>
           ) : (
