@@ -1,0 +1,72 @@
+{
+   "Search":"Recherche",
+   "Message":"Message",
+    "Menubar": {
+       "Saved Messages":"Messages enregistrés",
+       "Archived Chats":"Chats archivés",
+       "Contacts":"Contacts",
+       "Settings":"Paramètres",
+       "Night Mode":"Mode nuit",
+       "Animations":"Animations",
+       "Telegram Features":"Fonctionnalités de télégramme",
+       "Report Bug":"Rapportez une erreur",
+       "Switch to K Version":"Passer à la version K",
+       "Switch to Old Version":"Passer à l'ancienne version",
+       "Telegram WebZ":"Télégramme WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Se déconnecter",
+    "online":"en ligne",
+    "Phone":"Téléphone",
+    "Username":"Nom d'utilisateur",
+    "bio":"biologique",
+    "General Settings":"réglages généraux",
+    "Notifications":"Avis",
+    "Data and Storage":"Données et stockage",
+    "Privacy and Security":"Confidentialité et sécurité",
+    "Chat Folders":"Dossiers de conversation",
+    "Devices":"Dispositifs",
+    "Language":"Langue",
+    "Stickers and Emoji":"Autocollants et Emoji",
+    "Telegram Premium":"Télégramme Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Editer le profil",
+    "Name(required)":"Nom (obligatoire)",
+    "P1":"Tous les détails tels que l'âge, la profession ou la ville. Exemple : 23 ans dessinateur de San Francisco",
+    "P2":"Vous pouvez choisir un nom d'utilisateur sur Telegram. Si vous le faites, les gens pourront vous trouver grâce à ce nom d'utilisateur et vous contacter sans avoir besoin de votre numéro de téléphone.",
+    "P3":"Vous pouvez utiliser a–z, 0–9 et les traits de soulignement. La longueur minimale est de 5 caractères.",
+    "P4":"Ce lien ouvre une conversation avec vous : https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Générale",
+    "Message Text Size":"Taille du texte des messages",
+    "Chat Background":"Fond de chat",
+    "Theme":"Thème",
+    "Light":"Lumière",
+    "Dark":"Sombre",
+    "Time Format":"Format de l'heure"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Télécharger le fond d'écran",
+    "Set color":"Définir la couleur",
+    "Reset to Defaults":"Réinitialiser les paramètres par défaut"
+   },
+   "Header":{
+    "last seen":"vu pour la dernière fois",
+    "Show Translate Button":"Afficher le bouton Traduire",
+    "Do Not Translate":"Ne traduisez pas",
+    "P5":"Le bouton 'Traduire' apparaîtra lorsque vous ouvrirez un menu contextuel sur un message texte."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"informations utilisateur",
+      "Notification":"Notification"
+   },
+   "Toast":{
+      "Name":"Le nom est requis",
+      "Username":"Nom d'utilisateur est nécessaire",
+      "success":"Mise à jour du profil réussie"
+   }
+   
+}

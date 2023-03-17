@@ -1,0 +1,72 @@
+{
+   "Search":"Sök",
+    "Message":"Meddelande",
+    "Menubar": {
+       "Saved Messages":"Sparade meddelanden",
+       "Archived Chats":"Arkiverade chattar",
+       "Contacts":"Kontakter",
+       "Settings":"inställningar",
+       "Night Mode":"Nattläge",
+       "Animations":"Animationer",
+       "Telegram Features":"Telegramfunktioner",
+       "Report Bug":"Rapportera fel",
+       "Switch to K Version":"Byt till K-version",
+       "Switch to Old Version":"Byt till gammal version",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Logga ut",
+    "online":"uppkopplad",
+    "Phone":"Telefon",
+    "Username":"Användarnamn",
+    "bio":"bio",
+    "General Settings":"Allmänna Inställningar",
+    "Notifications":"Aviseringar",
+    "Data and Storage":"Data och lagring",
+    "Privacy and Security":"Sekretess och säkerhet",
+    "Chat Folders":"Chattmappar",
+    "Devices":"Enheter",
+    "Language":"Språk",
+    "Stickers and Emoji":"Klistermärken och emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Edit profile",
+    "Name(required)":"Name(required)",
+    "P1":"Alla detaljer som ålder, yrke eller stad. Exempel: 23 år designer från San Francisco",
+    "P2":"Du kan välja ett användarnamn på Telegram. Om du gör det kommer andra att kunna hitta dig med detta användarnamn och kontakta dig utan att behöva ditt telefonnummer.",
+    "P3":"Du kan använda a–z, 0–9 och understreck. Minsta längd är 5 tecken.",
+    "P4":"Denna länk öppnar en chatt med dig: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Allmän",
+    "Message Text Size":"Meddelandetextstorlek",
+    "Chat Background":"Chattbakgrund",
+    "Theme":"Tema",
+    "Light":"Ljus",
+    "Dark":"Mörk",
+    "Time Format":"Tidsformat"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Ladda upp bakgrundsbild",
+    "Set color":"Ställ in färg",
+    "Reset to Defaults":"Återställ till standardinställningar"
+   },
+   "Header":{
+    "last seen":"senast sedd",
+    "Show Translate Button":"Visa knappen Översätt",
+    "Do Not Translate":"Översätt inte",
+    "P5":"'Översätt'-knappen visas när du öppnar en snabbmeny i ett textmeddelande."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"användarinformation",
+      "Notification":"Underrättelse"
+   },
+   "Toast":{
+      "Name":"Namn krävs",
+      "Username":"Användarnamn krävs",
+      "success":"Profilen har uppdaterats"
+   }
+  
+}

@@ -1,0 +1,72 @@
+{
+   "Search":"Bilatu",
+    "Message":"Mezua",
+    "Menubar": {
+       "Saved Messages":"Gordetako mezuak",
+       "Archived Chats":"Artxibatutako txatak",
+       "Contacts":"Kontaktuak",
+       "Settings":"Ezarpenak",
+       "Night Mode":"Gaueko modua",
+       "Animations":"Animazioak",
+       "Telegram Features":"Telegram Ezaugarriak",
+       "Report Bug":"Akatsen berri eman",
+       "Switch to K Version":"Aldatu K bertsiora",
+       "Switch to Old Version":"Aldatu bertsio zaharrera",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Saioa amaitu",
+    "online":"sarean",
+    "Phone":"Mugikorra",
+    "Username":"Erabiltzaile izena",
+    "bio":"bio",
+    "General Settings":"Ezarpen orokorrak",
+    "Notifications":"Jakinarazpenak",
+    "Data and Storage":"Datuak eta biltegiratzea",
+    "Privacy and Security":"Pribatutasuna eta segurtasuna",
+    "Chat Folders":"Txat karpetak",
+    "Devices":"Gailuak",
+    "Language":"Hizkuntza",
+    "Stickers and Emoji":"Eranskailuak eta emojiak",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Editatu profila",
+    "Name(required)":"Izena (beharrezkoa)",
+    "P1":"Edozein xehetasun, hala nola adina, lanbidea edo hiria. Adibidea: 23 urte. San Frantziskoko diseinatzailea",
+    "P2":"Erabiltzaile izena aukeratu dezakezu Telegramen. Hala egiten baduzu, jendeak erabiltzaile-izen honen bidez aurkitu ahal izango zaitu eta zure telefono-zenbakirik behar izan gabe zurekin harremanetan jartzeko aukera izango du.",
+    "P3":"a–z, 0–9 eta azpimarra erabil ditzakezu. Gutxieneko luzera 5 karakterekoa da.",
+    "P4":"Esteka honek txat bat irekitzen du zurekin: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Orokorra",
+    "Message Text Size":"Mezuaren testuaren tamaina",
+    "Chat Background":"Txataren atzeko planoa",
+    "Theme":"Gaia",
+    "Light":"Argia",
+    "Dark":"Iluna",
+    "Time Format":"Denbora-formatua"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Kargatu horma-papera",
+    "Set color":"Ezarri kolorea",
+    "Reset to Defaults":"Berrezarri lehenespenetara"
+   },
+   "Header":{
+    "last seen":"Azkenekoz ikusia",
+    "Show Translate Button":"Erakutsi Itzuli botoia",
+    "Do Not Translate":"Ez itzuli",
+    "P5":"'Itzuli' botoia agertuko da testu-mezu batean laster-menu bat irekitzen duzunean."
+   },
+   "SaveMessage":{
+      "Profile":"Profila",
+      "User Info":"Erabiltzailearen informazioa",
+      "Notification":"Jakinarazpena"
+   },
+   "Toast":{
+      "Name":"Izena behar da",
+      "Username":"Erabiltzaile izena beharrezkoa da",
+      "success":"Profila behar bezala eguneratu da"
+   }
+  
+}

@@ -1,0 +1,72 @@
+{
+   "Search":"Vyhľadávanie",
+    "Message":"Správa",
+    "Menubar": {
+       "Saved Messages":"Uložené správy",
+       "Archived Chats":"Archivované rozhovory",
+       "Contacts":"Kontakty",
+       "Settings":"nastavenie",
+       "Night Mode":"Nočný mód",
+       "Animations":"Animácie",
+       "Telegram Features":"Vlastnosti telegramu",
+       "Report Bug":"Nahlásiť chybu",
+       "Switch to K Version":"Prepnite na verziu K",
+       "Switch to Old Version":"Prepnúť na starú verziu",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Odhlásiť sa",
+    "online":"online",
+    "Phone":"Telefón",
+    "Username":"Používateľské meno",
+    "bio":"bio",
+    "General Settings":"Všeobecné nastavenia",
+    "Notifications":"Upozornenia",
+    "Data and Storage":"Dáta a úložisko",
+    "Privacy and Security":"Súkromie a bezpečnosť",
+    "Chat Folders":"Priečinky chatu",
+    "Devices":"Zariadenia",
+    "Language":"Jazyk",
+    "Stickers and Emoji":"Nálepky a Emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Upraviť profil",
+    "Name(required)":"Meno (vyžadované)",
+    "P1":"Akékoľvek podrobnosti, ako je vek, povolanie alebo mesto. Príklad: 23 r. dizajnér zo San Francisca",
+    "P2":"Používateľské meno si môžete vybrať v telegrame. Ak tak urobíte, ľudia vás budú môcť nájsť podľa tohto používateľského mena a kontaktovať vás bez toho, aby potrebovali vaše telefónne číslo.",
+    "P3":"Môžete použiť a–z, 0–9 a podčiarkovníky. Minimálna dĺžka je 5 znakov.",
+    "P4":"Tento odkaz otvorí rozhovor s vami: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"generál",
+    "Message Text Size":"Veľkosť textu správy",
+    "Chat Background":"Pozadie chatu",
+    "Theme":"Téma",
+    "Light":"Light",
+    "Dark":"Tmavý",
+    "Time Format":"Formát času"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Nahrať tapetu",
+    "Set color":"Nastaviť farbu",
+    "Reset to Defaults":"Obnoviť predvolené nastavenia"
+   },
+   "Header":{
+    "last seen":"naposledy videný",
+    "Show Translate Button":"Zobraziť tlačidlo prekladu",
+    "Do Not Translate":"Neprekladať",
+    "P5":"Keď v textovej správe otvoríte kontextovú ponuku, zobrazí sa tlačidlo „Preložiť“."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"Informácie o používateľovi",
+      "Notification":"Oznámenie"
+   },
+   "Toast":{
+      "Name":"Meno je povinné",
+      "Username":"Vyžaduje sa používateľské meno",
+      "success":"Profil bol úspešne aktualizovaný"
+   }
+  
+}

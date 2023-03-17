@@ -1,0 +1,72 @@
+{
+   "Search":"Cerca",
+    "Message":"Missatge",
+    "Menubar": {
+       "Saved Messages":"Missatges desats",
+       "Archived Chats":"Xats arxivats",
+       "Contacts":"Contactes",
+       "Settings":"Configuració",
+       "Night Mode":"Mode nocturn",
+       "Animations":"Animacions",
+       "Telegram Features":"Característiques de Telegram",
+       "Report Bug":"Informa d'error",
+       "Switch to K Version":"Canvia a la versió K",
+       "Switch to Old Version":"Canvia a la versió antiga",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Tancar sessió",
+    "online":"en línia",
+    "Phone":"Telèfon",
+    "Username":"Nom d'usuari",
+    "bio":"bio",
+    "General Settings":"Configuració general",
+    "Notifications":"Notificacions",
+    "Data and Storage":"Dades i emmagatzematge",
+    "Privacy and Security":"Privacitat i seguretat",
+    "Chat Folders":"Carpetes de xat",
+    "Devices":"Dispositius",
+    "Language":"Llenguatge",
+    "Stickers and Emoji":"Adhesius i emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Edita el perfil",
+    "Name(required)":"Nom (obligatori)",
+    "P1":"Qualsevol detall com ara edat, ocupació o ciutat. Exemple: 23 anys. dissenyador de San Francisco",
+    "P2":"Podeu triar un nom d'usuari a Telegram. Si ho fas, la gent podrà trobar-te amb aquest nom d'usuari i contactar amb tu sense necessitat del teu número de telèfon.",
+    "P3":"Podeu utilitzar a–z, 0–9 i guions baixos. La longitud mínima és de 5 caràcters.",
+    "P4":"Aquest enllaç obre un xat amb tu: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"General",
+    "Message Text Size":"Mida del text del missatge",
+    "Chat Background":"Fons del xat",
+    "Theme":"Tema",
+    "Light":"Llum",
+    "Dark":"Fosc",
+    "Time Format":"Format horari"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Carrega fons de pantalla",
+    "Set color":"Estableix el color",
+    "Reset to Defaults":"Restableix els valors per defecte"
+   },
+   "Header":{
+    "last seen":"vist per últim cop",
+    "Show Translate Button":"Mostra el botó de traducció",
+    "Do Not Translate":"No tradueixis",
+    "P5":"El botó 'Tradueix' apareixerà quan obriu un menú contextual en un missatge de text."
+   },
+   "SaveMessage":{
+      "Profile":"Perfil",
+      "User Info":"Informació d'usuari",
+      "Notification":"Notificació"
+   },
+   "Toast":{
+      "Name":"El nom és obligatori",
+      "Username":"El nom d'usuari és obligatori",
+      "success":"Perfil actualitzat correctament"
+   }
+  
+}

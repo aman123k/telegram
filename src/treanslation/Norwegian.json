@@ -1,0 +1,72 @@
+{
+   "Search":"Søk",
+    "Message":"Beskjed",
+    "Menubar": {
+       "Saved Messages":"Lagrede meldinger",
+       "Archived Chats":"Arkiverte chatter",
+       "Contacts":"Kontakter",
+       "Settings":"Innstillinger",
+       "Night Mode":"Nattmodus",
+       "Animations":"Animasjoner",
+       "Telegram Features":"Telegramfunksjoner",
+       "Report Bug":"Rapporter feil",
+       "Switch to K Version":"Bytt til K-versjon",
+       "Switch to Old Version":"Bytt til gammel versjon",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Logg ut",
+    "online":"på nett",
+    "Phone":"Telefon",
+    "Username":"Brukernavn",
+    "bio":"bio",
+    "General Settings":"Generelle innstillinger",
+    "Notifications":"Varsler",
+    "Data and Storage":"Data og lagring",
+    "Privacy and Security":"Personvern og sikkerhet",
+    "Chat Folders":"Chat-mapper",
+    "Devices":"Enheter",
+    "Language":"Språk",
+    "Stickers and Emoji":"Klistremerker og Emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Rediger profil",
+    "Name(required)":"Navn (nødvendig)",
+    "P1":"Eventuelle detaljer som alder, yrke eller by. Eksempel: 23 år designer fra San Francisco",
+    "P2":"Du kan velge et brukernavn på Telegram. Hvis du gjør det, vil folk kunne finne deg med dette brukernavnet og kontakte deg uten å trenge telefonnummeret ditt.",
+    "P3":"Du kan bruke a–z, 0–9 og understreker. Minste lengde er 5 tegn.",
+    "P4":"Denne lenken åpner en chat med deg: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Generell",
+    "Message Text Size":"Meldingstekststørrelse",
+    "Chat Background":"Chat Bakgrunn",
+    "Theme":"Tema",
+    "Light":"Lys",
+    "Dark":"Mørk",
+    "Time Format":"Tidsformat"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Last opp bakgrunnsbilde",
+    "Set color":"Sett farge",
+    "Reset to Defaults":"Tilbakestill til standardinnstillinger"
+   },
+   "Header":{
+    "last seen":"sist sett",
+    "Show Translate Button":"Vis Oversett-knappen",
+    "Do Not Translate":"Ikke oversett",
+    "P5":"'Oversett'-knappen vises når du åpner en kontekstmeny på en tekstmelding."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"brukerinformasjon",
+      "Notification":"Melding"
+   },
+   "Toast":{
+      "Name":"Navn er påkrevd",
+      "Username":"Brukernavn er påkrevd",
+      "success":"Profilen ble oppdatert"
+   }
+  
+}

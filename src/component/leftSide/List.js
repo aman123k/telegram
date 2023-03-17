@@ -24,7 +24,7 @@ function List() {
         return (
           <Link to={`/MainrightCont/${user.id}`} key={user.id}>
             <div
-              className=" flex gap-3 items-center rounded-lg dark:hover:bg-[#2C2C2C]
+              className=" flex gap-3 items-center rounded-lg dark:hover:bg-[#2C2C2C] 
                   hover:bg-[#F4F4F5] py-2.5 px-3 ml-2 font-ubuntu select-none cursor-pointer"
               onClick={() => setMenu(false)}
               style={{

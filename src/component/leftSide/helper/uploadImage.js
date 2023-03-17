@@ -1,4 +1,4 @@
-function uplodeImage(e, setPicture) {
+function uploadImage(e, setPicture) {
   if (e.currentTarget.files && e.currentTarget.files[0]) {
     let reader = new FileReader();
     reader.onload = (e) => {
@@ -8,4 +8,4 @@ function uplodeImage(e, setPicture) {
   }
 }
 
-export default uplodeImage;
+export default uploadImage;

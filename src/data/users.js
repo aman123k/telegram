@@ -176,5 +176,5 @@ const users = [
     lastSeen: "within a week",
   },
 ];
-const bgImages = [{}];
+
 export { users };

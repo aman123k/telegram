@@ -1,0 +1,72 @@
+{
+   "Search":"Ricerca",
+    "Message":"Messaggio",
+    "Menubar": {
+       "Saved Messages":"Messaggi salvati",
+       "Archived Chats":"Chat archiviate",
+       "Contacts":"Contatti",
+       "Settings":"Impostazioni",
+       "Night Mode":"Modalità notturna",
+       "Animations":"Animazioni",
+       "Telegram Features":"Funzionalità di Telegram",
+       "Report Bug":"Segnala un errore",
+       "Switch to K Version":"Passa alla versione K",
+       "Switch to Old Version":"Passa alla vecchia versione",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Disconnettersi",
+    "online":"in linea",
+    "Phone":"Telefono",
+    "Username":"Nome utente",
+    "bio":"bio",
+    "General Settings":"impostazioni generali",
+    "Notifications":"Notifiche",
+    "Data and Storage":"Dati e Archiviazione",
+    "Privacy and Security":"Privacy e sicurezza",
+    "Chat Folders":"Cartelle chat",
+    "Devices":"Dispositivi",
+    "Language":"Lingua",
+    "Stickers and Emoji":"Adesivi ed Emoji",
+    "Telegram Premium":"Telegramma Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Modifica Profilo",
+    "Name(required)":"Nome (obbligatorio)",
+    "P1":"Eventuali dettagli come età, occupazione o città. Esempio: 23 anni stilista di San Francisco",
+    "P2":"Puoi scegliere un nome utente su Telegram. Se lo fai, le persone potranno trovarti con questo nome utente e contattarti senza bisogno del tuo numero di telefono.",
+    "P3":"È possibile utilizzare a–z, 0–9 e caratteri di sottolineatura. La lunghezza minima è di 5 caratteri.",
+    "P4":"Questo link apre una chat con te: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Generale",
+    "Message Text Size":"Dimensione del testo del messaggio",
+    "Chat Background":"Sfondo della chat",
+    "Theme":"Tema",
+    "Light":"Leggera",
+    "Dark":"Buia",
+    "Time Format":"Formato orario"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Carica sfondo",
+    "Set color":"Imposta il colore",
+    "Reset to Defaults":"Ripristina impostazioni predefinite"
+   },
+   "Header":{
+    "last seen":"ultima visualizzazione",
+    "Show Translate Button":"Mostra pulsante Traduci",
+    "Do Not Translate":"Non tradurre",
+    "P5":"Il pulsante 'Traduci' apparirà quando apri un menu contestuale su un messaggio di testo."
+   },
+   "SaveMessage":{
+      "Profile":"Profilo",
+      "User Info":"Informazioni utente",
+      "Notification":"Notifica"
+   },
+   "Toast":{
+      "Name":"Il nome è obbligatorio",
+      "Username":"è richiesto il nome utente",
+      "success":"Profilo aggiornato con successo"
+   }
+  
+}

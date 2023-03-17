@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import SentimentSatisfiedRoundedIcon from "@mui/icons-material/SentimentSatisfiedRounded";
 import AttachmentRoundedIcon from "@mui/icons-material/AttachmentRounded";
 import KeyboardVoiceRoundedIcon from "@mui/icons-material/KeyboardVoiceRounded";
+import { ThemeContext } from "../../context/global";
 
 function UserInput() {
+  const { t } = useContext(ThemeContext);
   return (
     <div className="absolute bottom-7 right-0 w-full">
       <div className="flex gap-3 mx-4 items-center ">
@@ -19,7 +21,7 @@ function UserInput() {
           </span>
           <input
             type="text"
-            placeholder="Message "
+            placeholder={t("Message.Message")}
             className=" bg-transparent w-full tracking-wide outline-none 
             py-3 dark:text-white"
           />

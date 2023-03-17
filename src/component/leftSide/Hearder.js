@@ -6,7 +6,7 @@ import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import Menubar from "./Menubar";
 import { ThemeContext } from "../../context/global";
 function Hearder() {
-  const { menu, toggleMenu, value, setValue } = useContext(ThemeContext);
+  const { menu, toggleMenu, value, setValue, t } = useContext(ThemeContext);
   return (
     <div
       className=" flex gap-3 px-3 items-center pt-3 pb-3 sticky 
@@ -39,7 +39,7 @@ function Hearder() {
         <input
           className=" outline-none cursor-text bg-transparent text-black dark:text-white w-[79%]"
           type="text"
-          placeholder="Search"
+          placeholder={t("Search")}
           value={value}
           onChange={(e) => setValue(e.currentTarget.value)}
         />

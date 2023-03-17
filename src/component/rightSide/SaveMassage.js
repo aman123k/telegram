@@ -3,7 +3,7 @@ import { ThemeContext } from "../../context/global";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 
 function SaveMassage() {
-  const { profile, setProfile } = useContext(ThemeContext);
+  const { profile, setProfile, t } = useContext(ThemeContext);
   return (
     <div
       className={`w-[60%] bg-[#F4F4F5] absolute duration-700 top-0 right-0 
@@ -20,7 +20,7 @@ function SaveMassage() {
             <CloseRoundedIcon />
           </button>
           <p className="font-semibold font-roboto tracking-wide text-xl dark:text-white ">
-            Profile
+            {t("SaveMessage.Profile")}
           </p>
         </div>
         <div className="w-28 h-28 mt-7 ml-[50%] translate-x-[-50%]">
@@ -31,7 +31,7 @@ function SaveMassage() {
           />
         </div>
         <p className="text-center mb-5 mt-3 dark:text-white font-semibold font-roboto text-[1.30rem] tracking-wide">
-          Saved Message
+          {t("Menubar.Saved Messages")}
         </p>
       </header>
     </div>

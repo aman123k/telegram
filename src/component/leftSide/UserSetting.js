@@ -18,21 +18,25 @@ import EmojiEmotionsOutlinedIcon from "@mui/icons-material/EmojiEmotionsOutlined
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 import ProfileEdit from "./ProfileEdit";
 import General from "./General";
+import List from "./helper/List";
+import Language from "./Language";
 function UserSetting() {
-  const { setting, setSetting } = useContext(ThemeContext);
+  const { setting, setSetting, t } = useContext(ThemeContext);
   const user = JSON.parse(localStorage.getItem("user"));
   const [editProfile, setEditProfile] = useState(false);
   const [generalSetting, setGeneralSetting] = useState(false);
+  const [language, setlanguage] = useState(false);
   const [logOut, setLogOut] = useState(false);
 
   return (
     <>
       <div
         className={`absolute top-0 h-screen w-full duration-700 select-none
-           dark:bg-[#0F0F0F] dark:border-[#161618] border-r bg-[#F4F4F4]
-           ${setting ? " translate-x-0" : "translate-x-[-100%]"}
-           ${editProfile ? "translate-x-[-100%]" : " translate-x-0"}
-           ${generalSetting ? "translate-x-[-100%]" : " translate-x-0"}
+        dark:bg-[#0F0F0F] dark:border-[#161618] border-r bg-[#F4F4F4]
+        ${setting ? " translate-x-0" : "translate-x-[-100%]"}
+        ${editProfile ? "translate-x-[-100%]" : " translate-x-0"}
+        ${generalSetting ? "translate-x-[-100%]" : " translate-x-0"}
+        ${language ? "translate-x-[-100%]" : " translate-x-0"}
            `}
       >
         <header
@@ -50,7 +54,7 @@ function UserSetting() {
               <ArrowBackRoundedIcon />
             </button>
             <p className="font-semibold text-xl font-roboto dark:text-white">
-              Settings
+              {t("Menubar.Settings")}
             </p>
           </div>
           <div>
@@ -82,7 +86,7 @@ function UserSetting() {
               }}
             >
               <LogoutRoundedIcon className="text-[#707579] text-xs mr-3" />
-              Log Out
+              {t("UserSetting.Log Out")}
             </div>
           ) : (
             ""
@@ -108,7 +112,9 @@ function UserSetting() {
                 >
                   {user.name}
                 </h2>
-                <p className="text-[#d3d5d6] tracking-wide text-sm">online</p>
+                <p className="text-[#d3d5d6] tracking-wide text-sm">
+                  {t("UserSetting.online")}
+                </p>
               </div>
             </div>
             <div>
@@ -119,7 +125,9 @@ function UserSetting() {
                 <LocalPhoneOutlinedIcon className="text-[#808488] " />
                 <div>
                   <span className=" font-roboto font-normal">{user.phone}</span>
-                  <p className="text-[#808488] text-sm">Phone</p>
+                  <p className="text-[#808488] text-sm">
+                    {t("UserSetting.Phone")}
+                  </p>
                 </div>
               </div>
               <div
@@ -131,70 +139,44 @@ function UserSetting() {
                   <span className=" font-roboto font-normal">
                     {user.userName}
                   </span>
-                  <p className="text-[#808488] text-sm">Username</p>
+                  <p className="text-[#808488] text-sm">
+                    {t("UserSetting.Username")}
+                  </p>
                 </div>
               </div>
               <div
                 className=" flex items-center gap-8 ml-2 mr-3 cursor-text 
-        px-3 py-2 my-2 rounded-md dark:text-white "
+                px-3 py-2 my-2 rounded-md dark:text-white "
               >
                 <InfoOutlinedIcon className="text-[#808488] " />
                 <div>
                   <span className=" font-roboto font-normal">{user.bio}</span>
-                  <p className="text-[#808488] text-sm">bio</p>
+                  <p className="text-[#808488] text-sm">
+                    {t("UserSetting.bio")}
+                  </p>
                 </div>
               </div>
             </div>
           </section>
-          <section className="mt-2 bg-white dark:bg-[#212121] py-1 ">
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-              onClick={() => {
-                setGeneralSetting(true);
-              }}
-            >
-              <SettingsOutlinedIcon className="text-[#808488] " />
-              <div className=" font-roboto font-normal tracking-wide">
-                General Settings
-              </div>
-            </div>
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-            >
-              <NotificationsNoneOutlinedIcon className="text-[#808488] " />
-              <div className=" font-roboto font-normal tracking-wide">
-                Notifications
-              </div>
-            </div>
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-            >
-              <DataSaverOffOutlinedIcon className="text-[#808488] " />
-              <div className=" font-roboto font-normal tracking-wide">
-                Data and Storage
-              </div>
-            </div>
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-            >
-              <LockOutlinedIcon className="text-[#808488] " />
-              <div className=" font-roboto font-normal tracking-wide">
-                Privacy and Security
-              </div>
-            </div>
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-            >
-              <FolderOpenIcon className="text-[#808488] " />
-              <div className=" font-roboto font-normal tracking-wide">
-                Chat Folders
-              </div>
-            </div>
+          <section className="mt-3 bg-white dark:bg-[#212121] py-1 ">
+            <List
+              title={t("UserSetting.General Settings")}
+              Icon={SettingsOutlinedIcon}
+              setItem={setGeneralSetting}
+            />
+            <List
+              title={t("UserSetting.Notifications")}
+              Icon={NotificationsNoneOutlinedIcon}
+            />
+            <List
+              title={t("UserSetting.Data and Storage")}
+              Icon={DataSaverOffOutlinedIcon}
+            />
+            <List
+              title={t("UserSetting.Privacy and Security")}
+              Icon={LockOutlinedIcon}
+            />
+            <List title={t("UserSetting.Chat Folders")} Icon={FolderOpenIcon} />
             <div
               className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
             hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
@@ -202,36 +184,27 @@ function UserSetting() {
               <DesktopWindowsOutlinedIcon className="text-[#808488] " />
               <div className="flex w-full justify-between">
                 <div className="font-roboto font-normal tracking-wide">
-                  Devices
+                  {t("UserSetting.Devices")}
                 </div>
                 <p>1</p>
               </div>
             </div>
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-            >
-              <TranslateOutlinedIcon className="text-[#808488] " />
-              <div className="font-roboto font-normal tracking-wide">
-                Language
-              </div>
-            </div>
-            <div
-              className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
-            hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
-            >
-              <EmojiEmotionsOutlinedIcon className="text-[#808488] " />
-              <div className="font-roboto font-normal tracking-wide">
-                Stickers and Emoji
-              </div>
-            </div>
+            <List
+              title={t("UserSetting.Language")}
+              Icon={TranslateOutlinedIcon}
+              setItem={setlanguage}
+            />
+            <List
+              title={t("UserSetting.Stickers and Emoji")}
+              Icon={EmojiEmotionsOutlinedIcon}
+            />
             <div
               className=" flex items-center gap-8 ml-2 mr-3 cursor-pointer px-3 py-3.5 my-2 
             hover:bg-[#F4F4F5] rounded-md dark:text-white dark:hover:bg-[#2C2C2C]"
             >
               <StarRoundedIcon className="text-purple-500 " />
               <div className="font-roboto font-normal tracking-wide">
-                Telegram Premium
+                {t("UserSetting.Telegram Premium")}
               </div>
             </div>
           </section>
@@ -242,6 +215,7 @@ function UserSetting() {
         generalSetting={generalSetting}
         setGeneralSetting={setGeneralSetting}
       />
+      <Language language={language} setlanguage={setlanguage} />
     </>
   );
 }

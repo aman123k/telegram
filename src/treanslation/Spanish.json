@@ -1,0 +1,72 @@
+{
+   "Search":"Buscar",
+    "Message":"Mensaje",
+    "Menubar": {
+       "Saved Messages":"Mensajes guardados",
+       "Archived Chats":"Chats archivados",
+       "Contacts":"Contactos",
+       "Settings":"Ajustes",
+       "Night Mode":"Modo nocturno",
+       "Animations":"animaciones",
+       "Telegram Features":"Características del telegrama",
+       "Report Bug":"Reportar un error",
+       "Switch to K Version":"Cambiar a la versión K",
+       "Switch to Old Version":"Cambiar a la versión anterior",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Cerrar sesión",
+    "online":"en línea",
+    "Phone":"Teléfono",
+    "Username":"Nombre de usuario",
+    "bio":"biografía",
+    "General Settings":"Configuración general",
+    "Notifications":"Notificaciones",
+    "Data and Storage":"Datos y Almacenamiento",
+    "Privacy and Security":"Privacidad y seguridad",
+    "Chat Folders":"Carpetas de chat",
+    "Devices":"Dispositivos",
+    "Language":"Idioma",
+    "Stickers and Emoji":"Pegatinas y emojis",
+    "Telegram Premium":"prima de telegrama"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Editar perfil",
+    "Name(required)":"Nombre (requerido)",
+    "P1":"Cualquier detalle como edad, ocupación o ciudad. Ejemplo: 23 años diseñador de san francisco",
+    "P2":"Puede elegir un nombre de usuario en Telegram. Si lo hace, las personas podrán encontrarlo por este nombre de usuario y contactarlo sin necesidad de su número de teléfono.",
+    "P3":"Puede usar a–z, 0–9 y guiones bajos. La longitud mínima es de 5 caracteres.",
+    "P4":"Este enlace abre un chat contigo: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"General",
+    "Message Text Size":"Tamaño del texto del mensaje",
+    "Chat Background":"Fondo de chat",
+    "Theme":"Tema",
+    "Light":"Ligera",
+    "Dark":"Oscura",
+    "Time Format":"Formato de tiempo"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Subir fondo de pantalla",
+    "Set color":"Establecer color",
+    "Reset to Defaults":"Restablecer los valores predeterminados"
+   },
+   "Header":{
+    "last seen":"ultima vez visto",
+    "Show Translate Button":"Mostrar botón de traducción",
+    "Do Not Translate":"No traducir",
+    "P5":"El botón 'Traducir' aparecerá cuando abra un menú contextual en un mensaje de texto."
+   },
+   "SaveMessage":{
+      "Profile":"Perfil",
+      "User Info":"Información de usuario",
+      "Notification":"Notificación"
+   },
+   "Toast":{
+      "Name":"Se requiere el nombre",
+      "Username":"Se requiere nombre de usuario",
+      "success":"Perfil actualizado con éxito"
+   }
+  
+}

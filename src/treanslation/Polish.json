@@ -1,0 +1,72 @@
+{
+   "Search":"Szukaj",
+    "Message":"Wiadomość",
+    "Menubar": {
+       "Saved Messages":"Zapisane wiadomości",
+       "Archived Chats":"Zarchiwizowane czaty",
+       "Contacts":"Łączność",
+       "Settings":"Ustawienia",
+       "Night Mode":"Tryb nocny",
+       "Animations":"animacje",
+       "Telegram Features":"Funkcje telegramu",
+       "Report Bug":"Zgłoś błąd",
+       "Switch to K Version":"Przełącz na wersję K",
+       "Switch to Old Version":"Przełącz na starą wersję",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Wyloguj",
+    "online":"online",
+    "Phone":"Telefon",
+    "Username":"Nazwa użytkownika",
+    "bio":"bio",
+    "General Settings":"Ustawienia główne",
+    "Notifications":"Powiadomienia",
+    "Data and Storage":"Dane i przechowywanie",
+    "Privacy and Security":"Prywatność i ochrona",
+    "Chat Folders":"Foldery czatu",
+    "Devices":"Urządzenia",
+    "Language":"Język",
+    "Stickers and Emoji":"Naklejki i emotikony",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Edytuj profil",
+    "Name(required)":"Imię (wymagane)",
+    "P1":"Wszelkie szczegóły, takie jak wiek, zawód lub miasto. Przykład: 23 lata projektantka z San Francisco",
+    "P2":"Możesz wybrać nazwę użytkownika w Telegramie. Jeśli to zrobisz, inne osoby będą mogły Cię znaleźć za pomocą tej nazwy użytkownika i skontaktować się z Tobą bez konieczności podawania numeru telefonu.",
+    "P3":"Możesz użyć znaków a–z, 0–9 i podkreśleń. Minimalna długość to 5 znaków.",
+    "P4":"Ten link otwiera czat z Tobą: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Ogólny",
+    "Message Text Size":"Rozmiar tekstu wiadomości",
+    "Chat Background":"Tło czatu",
+    "Theme":"Temat",
+    "Light":"Światło",
+    "Dark":"Ciemny",
+    "Time Format":"Format czasu"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Prześlij tapetę",
+    "Set color":"Ustaw kolor",
+    "Reset to Defaults":"Przywróć domyślne"
+   },
+   "Header":{
+    "last seen":"ostatnio widziany",
+    "Show Translate Button":"Show Translate Button",
+    "Do Not Translate":"Nie tłumacz",
+    "P5":"Przycisk „Tłumacz” pojawi się po otwarciu menu kontekstowego wiadomości tekstowej."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"Informacje użytkownika",
+      "Notification":"Powiadomienie"
+   },
+   "Toast":{
+      "Name":"imie jest wymagane",
+      "Username":"Wymagana jest nazwa użytkownika",
+      "success":"Profil zaktualizowany pomyślnie"
+   }
+  
+}

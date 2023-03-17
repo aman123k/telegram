@@ -1,0 +1,72 @@
+{
+    "Search":"Zoekopdracht",
+    "Message":"Bericht",
+    "Menubar": {
+       "Saved Messages":"Opgeslagen berichten",
+       "Archived Chats":"Gearchiveerde chats",
+       "Contacts":"Contacten",
+       "Settings":"Instellingen",
+       "Night Mode":"Nachtstand",
+       "Animations":"Animaties",
+       "Telegram Features":"Telegram-functies",
+       "Report Bug":"Fout melden",
+       "Switch to K Version":"Schakel over naar K-versie",
+       "Switch to Old Version":"Schakel over naar de oude versie",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Uitloggen",
+    "online":"online",
+    "Phone":"Telefoon",
+    "Username":"Gebruikersnaam",
+    "bio":"bio",
+    "General Settings":"Algemene instellingen",
+    "Notifications":"Meldingen",
+    "Data and Storage":"Gegevens en opslag",
+    "Privacy and Security":"Privacy en veiligheid",
+    "Chat Folders":"Chat-mappen",
+    "Devices":"Apparaten",
+    "Language":"Taal",
+    "Stickers and Emoji":"Stickers en Emoji",
+    "Telegram Premium":"Telegram-premie"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Bewerk profiel",
+    "Name(required)":"Naam (vereist)",
+    "P1":"Alle details zoals leeftijd, beroep of stad. Voorbeeld: 23 jaar ontwerper uit San Francisco",
+    "P2":"U kunt een gebruikersnaam kiezen op Telegram. Als je dat doet, kunnen mensen je vinden met deze gebruikersnaam en contact met je opnemen zonder dat ze je telefoonnummer nodig hebben.",
+    "P3":"U kunt a–z, 0–9 en underscores gebruiken. Minimale lengte is 5 tekens.",
+    "P4":"Deze link opent een chat met jou: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Algemeen",
+    "Message Text Size":"Tekstgrootte bericht",
+    "Chat Background":"Chat-achtergrond",
+    "Theme":"Thema",
+    "Light":"Licht",
+    "Dark":"Donker",
+    "Time Format":"Tijd formaat"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Achtergrond uploaden",
+    "Set color":"Kleur instellen",
+    "Reset to Defaults":"Resetten naar standaardwaarden"
+   },
+   "Header":{
+    "last seen":"last seen",
+    "Show Translate Button":"Toon vertaalknop",
+    "Do Not Translate":"Vertaal niet",
+    "P5":"De knop 'Vertalen' verschijnt wanneer u een contextmenu op een sms opent."
+   },
+   "SaveMessage":{
+      "Profile":"Profiel",
+      "User Info":"gebruikers informatie",
+      "Notification":"Kennisgeving"
+   },
+   "Toast":{
+      "Name":"Naam is vereist",
+      "Username":"Gebruikersnaam is verplicht",
+      "success":"Profiel succesvol bijgewerkt"
+   }
+  
+}

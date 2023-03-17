@@ -1,0 +1,72 @@
+{
+   "Search":"Maskay",
+    "Message":"Willakuy",
+    "Menubar": {
+       "Saved Messages":"Waqaychasqa Willakuykuna",
+       "Archived Chats":"Archivado Chats",
+       "Contacts":"Contactos nisqakuna",
+       "Settings":"Ajustes nisqa",
+       "Night Mode":"Modo Noche",
+       "Animations":"Animacionkuna",
+       "Telegram Features":"Telegrama nisqamanta ruwaykuna",
+       "Report Bug":"Willay Pantasqamanta",
+       "Switch to K Version":"K Versión nisqaman tikray",
+       "Switch to Old Version":"Ñawpa Versión nisqaman tikray",
+       "Telegram WebZ ":"Telegrama WebZ nisqa 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Lloqsiy",
+    "online":"tinkisqa",
+    "Phone":"Telefono",
+    "Username":"Ruraqpa sutin",
+    "bio":"bio",
+    "General Settings":"Ajustes Generales nisqa",
+    "Notifications":"Willakuykuna",
+    "Data and Storage":"Datos y Waqaychay",
+    "Privacy and Security":"Sapanchasqa hinaspa Seguridad",
+    "Chat Folders":"Chat Carpetas nisqa",
+    "Devices":"Dispositivokuna",
+    "Language":"Simi",
+    "Stickers and Emoji":"Pegatinas y Emoji",
+    "Telegram Premium":"Telegrama Premium nisqa"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Perfil nisqa llamk'apuy",
+    "Name(required)":"Suti(necesario)",
+    "P1":"Ima detallekunapas edad, llamkay utaq llaqta hina. Ejemplo: 23 watayoq. San Francisco llaqtamanta diseñador",
+    "P2":"Telegram nisqapi huk username nisqa sutita akllayta atinki. Chayta ruwanki chayqa, runakuna kay username nisqawan tariyta atisunkiku, chaymanta mana telefono numeroykita necesitaspa tinkiyta atisunkiku.",
+    "P3":"a–z, 0–9 hinaspa subrayado nisqakunatam servichikuwaq. Aswan pisi suni kayninqa 5 qillqam.",
+    "P4":"Kay t'inkiqa qanwan rimanakuyta kicharin: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Llapan",
+    "Message Text Size":"Willakuypa Qillqanpa sayaynin",
+    "Chat Background":"Chat nisqamanta willakuy",
+    "Theme":"Rimay",
+    "Light":"Kanchi",
+    "Dark":"Tutayasqa",
+    "Time Format":"Tiempo Formato nisqa"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Wallpaper nisqata apachiy",
+    "Set color":"Color nisqa churay",
+    "Reset to Defaults":"Defaults nisqaman kutichiy"
+   },
+   "Header":{
+    "last seen":"qhipa rikusqa",
+    "Show Translate Button":"Qhawachiy Tikray Botón",
+    "Do Not Translate":"Ama T’ikraychu",
+    "P5":"‘T’ikray’ ñit’inaqa rikhurinqa mayk’aqchus juk menú de contexto nisqa qillqa willaypi kichanki."
+   },
+   "SaveMessage":{
+      "Profile":"Runapa kaynin",
+      "User Info":"Usuariomanta willakuy",
+      "Notification":"Willakuy"
+   },
+   "Toast":{
+      "Name":"Sutiqa mañakun",
+      "Username":"Username is required",
+      "success":"Perfil Allinta musuqyachisqa"
+   }
+  
+}

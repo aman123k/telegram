@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Person3OutlinedIcon from "@mui/icons-material/Person3Outlined";
-import uplodeImage from "../component/helper/uplodeImage";
+import uploadImage from "../component/leftSide/helper/uploadImage";
 function LoginPage() {
   const theme = localStorage.getItem("theme");
   const [name, setName] = useState("");
@@ -174,7 +174,7 @@ function LoginPage() {
               type="file"
               id="file"
               className="hidden"
-              onChange={(e) => uplodeImage(e, setPicture)}
+              onChange={(e) => uploadImage(e, setPicture)}
             />
             <div className="text-sm text-[#94907F] font-bold overflow-hidden">
               {picture ? (

@@ -1,0 +1,72 @@
+{
+   "Search":"Cari",
+    "Message":"Mesej",
+    "Menubar": {
+       "Saved Messages":"Mesej Disimpan",
+       "Archived Chats":"Sembang Terarkib",
+       "Contacts":"Kenalan",
+       "Settings":"tetapan",
+       "Night Mode":"Mod malam",
+       "Animations":"Animasi",
+       "Telegram Features":"Ciri Telegram",
+       "Report Bug":"Laporkan Pepijat",
+       "Switch to K Version":"Tukar kepada Versi K",
+       "Switch to Old Version":"Tukar kepada Versi Lama",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Log keluar",
+    "online":"dalam talian",
+    "Phone":"telefon",
+    "Username":"Nama pengguna",
+    "bio":"bio",
+    "General Settings":"Tetapan umum",
+    "Notifications":"Pemberitahuan",
+    "Data and Storage":"Data dan Storan",
+    "Privacy and Security":"Privasi dan Keselamatan",
+    "Chat Folders":"Folder Sembang",
+    "Devices":"Peranti",
+    "Language":"Bahasa",
+    "Stickers and Emoji":"Pelekat dan Emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Sunting profil",
+    "Name(required)":"Nama (diperlukan)",
+    "P1":"Sebarang butiran seperti umur, pekerjaan atau bandar. Contoh: 23 thn pereka dari San Francisco",
+    "P2":"Anda boleh memilih nama pengguna di Telegram. Jika anda berbuat demikian, orang akan dapat mencari anda melalui nama pengguna ini dan menghubungi anda tanpa memerlukan nombor telefon anda.",
+    "P3":"Anda boleh menggunakan a–z, 0–9 dan garis bawah. Panjang minimum ialah 5 aksara.",
+    "P4":"Pautan ini membuka sembang dengan anda: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Umum",
+    "Message Text Size":"Saiz Teks Mesej",
+    "Chat Background":"Latar Belakang Sembang",
+    "Theme":"Tema",
+    "Light":"Cahaya",
+    "Dark":"Gelap",
+    "Time Format":"Format masa"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Muat Naik Kertas Dinding",
+    "Set color":"Tetapkan warna",
+    "Reset to Defaults":"Tetapkan semula kepada Lalai"
+   },
+   "Header":{
+    "last seen":"kali terakhir dilihat",
+    "Show Translate Button":"Tunjukkan Butang Terjemah",
+    "Do Not Translate":"Jangan Terjemah",
+    "P5":"Butang 'Terjemah' akan muncul apabila anda membuka menu konteks pada mesej teks."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"Maklumat Pengguna",
+      "Notification":"Pemberitahuan"
+   },
+   "Toast":{
+      "Name":"Nama diperlukan",
+      "Username":"Nama pengguna diperlukan",
+      "success":"Profil berjaya dikemas kini"
+   }
+  
+}

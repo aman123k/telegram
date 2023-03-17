@@ -1,0 +1,72 @@
+{
+   "Search":"Aramak",
+    "Message":"İleti",
+    "Menubar": {
+       "Saved Messages":"Kayıtlı Mesajlar",
+       "Archived Chats":"Arşivlenmiş Sohbetler",
+       "Contacts":"Kişiler",
+       "Settings":"Ayarlar",
+       "Night Mode":"Gece modu",
+       "Animations":"Animasyonlar",
+       "Telegram Features":"Telgraf Özellikleri",
+       "Report Bug":"Hata Bildir",
+       "Switch to K Version":"K Versiyonuna Geç",
+       "Switch to Old Version":"Eski Versiyona Geç",
+       "Telegram WebZ":"Telgraf WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Çıkış Yap",
+    "online":"çevrimiçi",
+    "Phone":"Telefon",
+    "Username":"Kullanıcı adı",
+    "bio":"biyo",
+    "General Settings":"Genel Ayarlar",
+    "Notifications":"Bildirimler",
+    "Data and Storage":"Veri ve Depolama",
+    "Privacy and Security":"Gizlilik ve güvenlik",
+    "Chat Folders":"Sohbet Klasörleri",
+    "Devices":"Cihazlar",
+    "Language":"Dil",
+    "Stickers and Emoji":"Stickers and Emoji",
+    "Telegram Premium":"Telgraf Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Profili Düzenle",
+    "Name(required)":"İsim (gerekli)",
+    "P1":"Yaş, meslek veya şehir gibi ayrıntılar. Örnek: 23 yaşında San Francisco'dan tasarımcı",
+    "P2":"Telegram'da bir kullanıcı adı seçebilirsiniz. Bunu yaparsanız, insanlar sizi bu kullanıcı adıyla bulabilecek ve telefon numaranıza ihtiyaç duymadan sizinle iletişime geçebilecektir.",
+    "P3":"a–z, 0–9 ve alt çizgi kullanabilirsiniz. Minimum uzunluk 5 karakterdir.",
+    "P4":"Bu bağlantı sizinle bir sohbet açar: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Genel",
+    "Message Text Size":"Mesaj Metni Boyutu",
+    "Chat Background":"Sohbet Arka Planı",
+    "Theme":"Tema",
+    "Light":"Işık",
+    "Dark":"Karanlık",
+    "Time Format":"Zaman formatı"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Duvar Kağıdı Yükle",
+    "Set color":"rengi ayarla",
+    "Reset to Defaults":"Varsayılanlara dön"
+   },
+   "Header":{
+    "last seen":"son görülen",
+    "Show Translate Button":"Çevir Düğmesini Göster",
+    "Do Not Translate":"Çevirme",
+    "P5":"Metin mesajında ​​bir içerik menüsü açtığınızda 'Çevir' düğmesi görünecektir."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"Kullanıcı bilgisi",
+      "Notification":"Bildiri"
+   },
+   "Toast":{
+      "Name":"İsim gerekli",
+      "Username":"kullanıcı adı gerekli",
+      "success":"Profil başarıyla güncellendi"
+   }
+  
+}

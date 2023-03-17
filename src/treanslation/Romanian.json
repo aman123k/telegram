@@ -1,0 +1,72 @@
+{
+   "Search":"Căutare",
+    "Message":"Mesaj",
+    "Menubar": {
+       "Saved Messages":"Mesaje salvate",
+       "Archived Chats":"Chat-uri arhivate",
+       "Contacts":"Contacte",
+       "Settings":"Setări",
+       "Night Mode":"Modul noapte",
+       "Animations":"Animații",
+       "Telegram Features":"Caracteristici Telegram",
+       "Report Bug":"Raportați eroare",
+       "Switch to K Version":"Comutați la versiunea K",
+       "Switch to Old Version":"Comutați la versiunea veche",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Deconectați-vă",
+    "online":"pe net",
+    "Phone":"Telefon",
+    "Username":"Nume de utilizator",
+    "bio":"bio",
+    "General Settings":"setari generale",
+    "Notifications":"Notificări",
+    "Data and Storage":"Date și stocare",
+    "Privacy and Security":"Confidențialitate și securitate",
+    "Chat Folders":"Dosare de chat",
+    "Devices":"Dispozitive",
+    "Language":"Limba",
+    "Stickers and Emoji":"Autocolante și emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Editează profilul",
+    "Name(required)":"Nume (obligatoriu)",
+    "P1":"Orice detalii precum vârsta, ocupația sau orașul. Exemplu: 23 de ani designer din San Francisco",
+    "P2":"Puteți alege un nume de utilizator pe Telegram. Dacă o faci, oamenii te vor putea găsi după acest nume de utilizator și te vor contacta fără a avea nevoie de numărul tău de telefon.",
+    "P3":"Puteți folosi a–z, 0–9 și caractere de subliniere. Lungimea minimă este de 5 caractere.",
+    "P4":"Acest link deschide un chat cu tine: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"General",
+    "Message Text Size":"Dimensiunea textului mesajului",
+    "Chat Background":"Fundal chat",
+    "Theme":"Temă",
+    "Light":"Ușoară",
+    "Dark":"Întuneric",
+    "Time Format":"Format de timp"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Încărcați fundal",
+    "Set color":"Setați culoarea",
+    "Reset to Defaults":"Resetați la valorile implicite"
+   },
+   "Header":{
+    "last seen":"vazut ultima data",
+    "Show Translate Button":"Afișați butonul de traducere",
+    "Do Not Translate":"Nu traduce",
+    "P5":"Butonul „Traduceți” va apărea când deschideți un meniu contextual pe un mesaj text."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"Informații utilizator",
+      "Notification":"Notificare"
+   },
+   "Toast":{
+      "Name":"Numele este obligatoriu",
+      "Username":"Numele de utilizator este necesar",
+      "success":"Profil actualizat cu succes"
+   }
+  
+}

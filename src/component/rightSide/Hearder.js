@@ -12,7 +12,7 @@ import SaveMassage from "./SaveMassage";
 function Hearder() {
   const { id } = useParams();
   const navigation = useNavigate();
-  const { setUserId, setSearch, setProfile } = useContext(ThemeContext);
+  const { setUserId, setSearch, setProfile, t } = useContext(ThemeContext);
   const newUser = users.filter((user) => {
     return user.id.toString() === id;
   });
@@ -31,9 +31,9 @@ function Hearder() {
       <div className={`relative select-none duration-200`}>
         <header
           className=" bg-[#FFFFFF] flex justify-between py-2 px-6 items-center sticky top-0
-          dark:text-white font-roboto dark:bg-[#212121] max-[780px]:px-2  h-[8vh]"
+          dark:text-white font-roboto dark:bg-[#212121] max-[780px]:px-1"
         >
-          <section className=" flex items-center gap-4">
+          <section className=" flex items-center gap-4 max-[750px]:gap-2">
             <div
               className="max-[650px]:block hidden cursor-pointer
               hover:bg-[#F4F4F4] dark:hover:bg-[#2C2C2C] p-2 rounded-full
@@ -58,11 +58,13 @@ function Hearder() {
                 />
               </div>
               <div>
-                <h2 className=" font-semibold max-[780px]:sm">Saved Message</h2>
+                <h2 className=" font-semibold max-[780px]:sm">
+                  {t("Menubar.Saved Messages")}
+                </h2>
               </div>
             </div>
           </section>
-          <div className=" flex gap-2 text-[#707579] max-[780px]:gap-1">
+          <div className=" flex gap-2 text-[#707579] max-[780px]:gap-[5px]">
             <button
               onClick={() => setSearch(true)}
               className=" hover:bg-[#F4F4F4] dark:hover:bg-[#2C2C2C] p-2 flex items-center rounded-full max-[780px]:p-1.5"
@@ -73,9 +75,9 @@ function Hearder() {
               <MoreVertRoundedIcon />
             </button>
           </div>
-          <SaveMassage />
-          <Message />
         </header>
+        <Message />
+        <SaveMassage />
       </div>
     );
   } else {
@@ -83,9 +85,9 @@ function Hearder() {
       <div className={`relative select-none duration-200`}>
         <header
           className=" bg-[#FFFFFF] flex justify-between py-2 px-6 items-center
-          dark:text-white font-roboto dark:bg-[#212121] max-[780px]:px-2 h-[8vh]"
+          dark:text-white font-roboto dark:bg-[#212121] max-[780px]:px-1"
         >
-          <section className=" flex items-center gap-4">
+          <section className=" flex items-center gap-4 max-[750px]:gap-1.5">
             <div
               className="max-[650px]:block hidden cursor-pointer
               hover:bg-[#F4F4F4] dark:hover:bg-[#2C2C2C] p-2 rounded-full
@@ -100,7 +102,7 @@ function Hearder() {
             </div>
             <div
               onClick={() => setProfile(true)}
-              className=" flex gap-3 items-center cursor-pointer"
+              className=" flex gap-3 max-[750px]:gap-2 items-center cursor-pointer"
             >
               <div
                 className=" w-10 h-10 rounded-full flex items-center 
@@ -121,12 +123,12 @@ function Hearder() {
                   {newUser[0].name}
                 </h2>
                 <p className="text-xs text-[#919598]">
-                  last seen {newUser[0].lastSeen}
+                  {t("Header.last seen")} {newUser[0].lastSeen}
                 </p>
               </div>
             </div>
           </section>
-          <div className=" flex gap-2 text-[#707579] max-[780px]:gap-1">
+          <div className=" flex gap-2 text-[#707579] max-[780px]:gap-0.5">
             <button
               onClick={() => setSearch(true)}
               className=" hover:bg-[#F4F4F4] dark:hover:bg-[#2C2C2C] p-2 flex items-center rounded-full max-[780px]:p-1.5"

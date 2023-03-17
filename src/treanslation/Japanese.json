@@ -1,0 +1,72 @@
+{
+   "Search":"検索",
+   "Message":"メッセージ",
+    "Menubar": {
+       "Saved Messages":"保存されたメッセージ",
+       "Archived Chats":"アーカイブされたチャット",
+       "Contacts":"連絡先",
+       "Settings":"設定",
+       "Night Mode":"ナイトモード",
+       "Animations":"アニメーション",
+       "Telegram Features":"テレグラム機能",
+       "Report Bug":"バグを報告",
+       "Switch to K Version":"K バージョンに切り替える",
+       "Switch to Old Version":"古いバージョンに切り替える",
+       "Telegram WebZ":"テレグラム WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"ログアウト",
+    "online":"オンライン",
+    "Phone":"電話",
+    "Username":"ユーザー名",
+    "bio":"バイオ",
+    "General Settings":"一般設定",
+    "Notifications":"通知",
+    "Data and Storage":"データとストレージ",
+    "Privacy and Security":"プライバシーとセキュリティ",
+    "Chat Folders":"チャット フォルダ",
+    "Devices":"デバイス",
+    "Language":"言語",
+    "Stickers and Emoji":"ステッカーと絵文字",
+    "Telegram Premium":"電報プレミアム"
+   },
+   "ProfileEdit":{
+    "Edit profile":"プロファイル編集",
+    "Name(required)":"お名前(必須)",
+    "P1":"年齢、職業、都市などの詳細。例：23歳サンフランシスコ出身のデザイナー",
+    "P2":"Telegram でユーザー名を選択できます。そうすれば、人々はこのユーザー名であなたを見つけ、あなたの電話番号を知らなくてもあなたに連絡できるようになります。",
+    "P3":"a–z、0–9、およびアンダースコアを使用できます。最小長は 5 文字です。",
+    "P4":"このリンクからあなたとのチャットが開きます: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"全般的",
+    "Message Text Size":"メッセージテキストサイズ",
+    "Chat Background":"チャットの背景",
+    "Theme":"テーマ",
+    "Light":"ライト",
+    "Dark":"暗い",
+    "Time Format":"時刻形式"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"壁紙をアップロード",
+    "Set color":"色を設定",
+    "Reset to Defaults":"既定値にリセット"
+   },
+   "Header":{
+    "last seen":"最後に見たのは",
+    "Show Translate Button":"翻訳ボタンを表示",
+    "Do Not Translate":"翻訳しない",
+    "P5":"テキスト メッセージのコンテキスト メニューを開くと、[翻訳] ボタンが表示されます。"
+   },
+   "SaveMessage":{
+      "Profile":"プロフィール",
+      "User Info":"ユーザー情報",
+      "Notification":"通知"
+   },
+   "Toast":{
+      "Name":"お名前必須",
+      "Username":"ユーザー名が必要です",
+      "success":"プロファイルが正常に更新されました"
+   }
+   
+}

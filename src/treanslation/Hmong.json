@@ -1,0 +1,72 @@
+{
+   "Search":"Nrhiav",
+    "Message":"Xov xwm",
+    "Menubar": {
+       "Saved Messages":"Txuag lus",
+       "Archived Chats":"Archived Chats",
+       "Contacts":"Tiv tauj",
+       "Settings":"Chaw",
+       "Night Mode":"Hmo ntuj hom",
+       "Animations":"Animations",
+       "Telegram Features":"Telegram nta",
+       "Report Bug":"Qhia kab laum",
+       "Switch to K Version":"Hloov mus rau K Version",
+       "Switch to Old Version":"Hloov mus rau Old Version",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Log Out",
+    "online":"online",
+    "Phone":"Xov tooj",
+    "Username":"Tus neeg siv lub npe",
+    "bio":"bio",
+    "General Settings":"General Settings",
+    "Notifications":"Kev ceeb toom",
+    "Data and Storage":"Cov ntaub ntawv thiab khaws cia",
+    "Privacy and Security":"Tsis pub twg paub thiab kev ruaj ntseg",
+    "Chat Folders":"Tham Folders",
+    "Devices":"Cov khoom siv",
+    "Language":"Lus",
+    "Stickers and Emoji":"Stickers thiab Emoji",
+    "Telegram Premium":"Telegram hwm"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Kho qhov profile",
+    "Name(required)":"Lub npe (yuav tsum tau)",
+    "P1":"Txhua yam ntsiab lus xws li hnub nyoog, txoj haujlwm lossis lub nroog. np: 23 y. designer los ntawm San Francisco",
+    "P2":"Koj tuaj yeem xaiv tus username ntawm Telegram. Yog tias koj ua li ntawd, tib neeg yuav tuaj yeem nrhiav tau koj los ntawm tus neeg siv lub npe no thiab tiv tauj koj yam tsis xav tau koj tus lej xov tooj.",
+    "P3":"Koj tuaj yeem siv a–z, 0–9 thiab underscores. Qhov ntev tsawg kawg yog 5 cim.",
+    "P4":"Qhov txuas no qhib kev sib tham nrog koj: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"General",
+    "Message Text Size":"Message Size",
+    "Chat Background":"Tham tom qab",
+    "Theme":"Ntsiab lus",
+    "Light":"Teeb",
+    "Dark":"Tsaus",
+    "Time Format":"Lub sij hawm Format"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Upload Wallpaper",
+    "Set color":"Teeb xim",
+    "Reset to Defaults":"Rov qab mus rau Defaults"
+   },
+   "Header":{
+    "last seen":"kawg pom",
+    "Show Translate Button":"Qhia Txhais Lus Khawm",
+    "Do Not Translate":"Txhob Txhais",
+    "P5":"Lub pob 'Hloov' yuav tshwm sim thaum koj qhib cov ntawv qhia zaub mov ntawm cov ntawv nyeem."
+   },
+   "SaveMessage":{
+      "Profile":"Profile",
+      "User Info":"Cov ntaub ntawv siv",
+      "Notification":"Kev ceeb toom"
+   },
+   "Toast":{
+      "Name":"Yuav tsum muaj npe",
+      "Username":"Tus neeg siv yuav tsum tau",
+      "success":"Hloov tshiab Profile tiav"
+   }
+  
+}

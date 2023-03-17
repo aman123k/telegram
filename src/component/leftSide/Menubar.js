@@ -10,9 +10,10 @@ import PestControlOutlinedIcon from "@mui/icons-material/PestControlOutlined";
 
 import { ThemeContext } from "../../context/global";
 import { Link } from "react-router-dom";
+import MenubarList from "./helper/MenubarList";
 
 function Menubar() {
-  const { theme, toggleDarkMode, toggleMenu, setArchive, setSetting } =
+  const { theme, toggleDarkMode, toggleMenu, setArchive, setSetting, t } =
     useContext(ThemeContext);
   return (
     <div className="absolute select-none z-50">
@@ -22,53 +23,39 @@ function Menubar() {
       >
         <ul className="dark:text-white ">
           <Link to="/MainrightCont/2093858">
-            <li
-              className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-5 py-1 
-                    cursor-pointer tracking-wide rounded-md items-center dark:hover:bg-[#141414]"
-              onClick={toggleMenu}
-            >
-              <TurnedInNotRoundedIcon className=" text-[#899196]" />
-              <span>Saved Messages</span>
-            </li>
+            <MenubarList
+              title={t("Menubar.Saved Messages")}
+              setToggle={toggleMenu}
+              setTrue={toggleMenu}
+              Icon={TurnedInNotRoundedIcon}
+            />
           </Link>
-          <li
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-5 py-1 
-                    cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
-            onClick={() => {
-              setArchive(true);
-              toggleMenu();
-            }}
-          >
-            <ArchiveOutlinedIcon className=" text-[#899196]" />
-            <span>Archived Chats</span>
-          </li>
-          <li
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-5 py-1 
-                    cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
-            onClick={toggleMenu}
-          >
-            <PeopleAltOutlinedIcon className=" text-[#899196]" />
-            <span>Contacts</span>
-          </li>
-          <li
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-5 py-1 
-                    cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
-            onClick={() => {
-              setSetting(true);
-              toggleMenu();
-            }}
-          >
-            <SettingsOutlinedIcon className=" text-[#899196]" />
-            <span>Settings</span>
-          </li>
+          <MenubarList
+            title={t("Menubar.Archived Chats")}
+            setToggle={toggleMenu}
+            setTrue={setArchive}
+            Icon={ArchiveOutlinedIcon}
+          />
+          <MenubarList
+            title={t("Menubar.Contacts")}
+            setToggle={toggleMenu}
+            setTrue={toggleMenu}
+            Icon={PeopleAltOutlinedIcon}
+          />
+          <MenubarList
+            title={t("Menubar.Settings")}
+            setToggle={toggleMenu}
+            setTrue={setSetting}
+            Icon={SettingsOutlinedIcon}
+          />
           <li
             onClick={toggleDarkMode}
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-20 py-1 
+            className="hover:bg-[#EEEEEE] px-2.5 text-sm flex py-1 gap-3 justify-between
                     cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
           >
             <div className=" flex gap-5 items-center">
               <DarkModeOutlinedIcon className=" text-[#899196]" />
-              <span>Night Mode</span>
+              <span>{t("Menubar.Night Mode")}</span>
             </div>
             <div className=" w-8 h-2.5 relative bg-[#c4c9cc] rounded-full dark:bg-[#8774E1]">
               <span
@@ -79,12 +66,12 @@ function Menubar() {
             </div>
           </li>
           <li
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-20 py-1 
+            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-3 justify-between py-1 
                     cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
           >
-            <div className=" flex gap-5 items-center">
+            <div className=" flex gap-5 items-center ">
               <GifOutlinedIcon className=" text-[#899196]" />
-              <span>Animations</span>
+              <span>{t("Menubar.Animations")}</span>
             </div>
             <div className=" w-8 h-2.5 relative bg-[#c4c9cc] rounded-full dark:bg-[#71767a]">
               <span
@@ -94,37 +81,35 @@ function Menubar() {
               ></span>
             </div>
           </li>
-          <li
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-5 py-1 
-                    cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
-          >
-            <HelpOutlineOutlinedIcon className=" text-[#899196]" />
-            <span>Telegram Features</span>
-          </li>
-          <li
-            className=" hover:bg-[#EEEEEE] px-2.5 text-sm flex gap-5 py-1 
-                    cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
-          >
-            <PestControlOutlinedIcon className=" text-[#899196]" />
-            <span>Report Bug</span>
-          </li>
+          <MenubarList
+            title={t("Menubar.Telegram Features")}
+            setToggle={toggleMenu}
+            setTrue={toggleMenu}
+            Icon={HelpOutlineOutlinedIcon}
+          />
+          <MenubarList
+            title={t("Menubar.Report Bug")}
+            setToggle={toggleMenu}
+            setTrue={toggleMenu}
+            Icon={PestControlOutlinedIcon}
+          />
           <li
             className=" hover:bg-[#EEEEEE] px-3.5 text-sm flex gap-[1.6rem] py-1 
                     cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
           >
             <span className="text-[#899196] font-normal text-xl">K</span>
-            <span>Switch to K Version</span>
+            <span>{t("Menubar.Switch to K Version")}</span>
           </li>
           <li
             className=" hover:bg-[#EEEEEE] px-3.5 text-sm flex gap-[1.2rem] py-1 
                     cursor-pointer tracking-wide dark:hover:bg-[#141414] rounded-md items-center"
           >
             <span className="text-[#899196] font-normal text-xl">W</span>
-            <span>Switch to Old Version</span>
+            <span>{t("Menubar.Switch to Old Version")}</span>
           </li>
         </ul>
         <p className=" text-xs tracking-wide text-[#899196] text-center mt-3 mb-1">
-          Telegram WebZ 1.50.12
+          {t("Menubar.Telegram WebZ")}
         </p>
       </div>
     </div>

@@ -1,11 +1,13 @@
-import React, { useState } from "react";
-import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
+import React, { useContext, useState } from "react";
 import CenterFocusStrongOutlinedIcon from "@mui/icons-material/CenterFocusStrongOutlined";
 import CheckRoundedIcon from "@mui/icons-material/CheckRounded";
 import toast, { Toaster } from "react-hot-toast";
-import uplodeImage from "../helper/uplodeImage";
+import uploadImage from "./helper/uploadImage";
+import Header from "./helper/Header";
+import { ThemeContext } from "../../context/global";
 
 function ProfileEdit({ setEditProfile, editProfile }) {
+  const { t } = useContext(ThemeContext);
   const user = JSON.parse(localStorage.getItem("user"));
   const theme = localStorage.getItem("theme");
   const [picture, setPicture] = useState(user.picture);
@@ -26,11 +28,11 @@ function ProfileEdit({ setEditProfile, editProfile }) {
     };
     if (name === "") {
       if (theme === "light") {
-        toast.error("Name is required", {
+        toast.error(t("Toast.Name"), {
           duration: 1200,
         });
       } else {
-        toast.error("Name is required", {
+        toast.error(t("Toast.Name"), {
           duration: 1200,
           style: {
             background: "#333333",
@@ -41,11 +43,11 @@ function ProfileEdit({ setEditProfile, editProfile }) {
       return;
     } else if (userName === "") {
       if (theme === "light") {
-        toast.error("Username is required", {
+        toast.error(t("Toast.Username"), {
           duration: 1200,
         });
       } else {
-        toast.error("Username is required", {
+        toast.error(t("Toast.Username"), {
           duration: 1200,
           style: {
             background: "#333333",
@@ -55,7 +57,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
       }
       return;
     } else {
-      toast.success("Profile Updated successfull");
+      toast.success(t("Toast.success"));
       localStorage.setItem("user", JSON.stringify(users));
     }
   };
@@ -67,37 +69,25 @@ function ProfileEdit({ setEditProfile, editProfile }) {
          ${editProfile ? "translate-x-[0]" : " translate-x-[-100%]"}
         `}
       >
-        <header
-          className=" py-1.5 px-3 bg-white select-none dark:bg-[#212121]
-           sticky top-0 h-[8vh] z-50 "
-        >
-          <div className=" flex gap-4 items-center">
-            <button
-              className="hover:bg-[#F4F4F4] dark:hover:bg-[#2B2B2B] p-2 rounded-full text-[#7C7F82]"
-              onClick={() => setEditProfile(false)}
-            >
-              <ArrowBackRoundedIcon />
-            </button>
-            <p className=" text-xl tracking-wide font-roboto dark:text-white">
-              Edit profile
-            </p>
-          </div>
-          {!(name === user.name) ||
-          !(userName === user.userName) ||
-          !(bio === user.bio) ||
-          !(picture === user.picture) ? (
-            <div
-              className="fixed z-50 right-6 w-12 h-12 rounded-full bottom-5
+        <Header
+          title={t("ProfileEdit.Edit profile")}
+          setItems={setEditProfile}
+        />
+        {!(name === user.name) ||
+        !(userName === user.userName) ||
+        !(bio === user.bio) ||
+        !(picture === user.picture) ? (
+          <div
+            className="fixed z-50 right-6 w-12 h-12 rounded-full bottom-5
          bg-[#4A95D6] flex items-center justify-center cursor-pointer"
-              onClick={updateProfile}
-            >
-              <Toaster position="bottom-center" />
-              <CheckRoundedIcon className="text-white" />
-            </div>
-          ) : (
-            ""
-          )}
-        </header>
+            onClick={updateProfile}
+          >
+            <Toaster position="bottom-center" />
+            <CheckRoundedIcon className="text-white" />
+          </div>
+        ) : (
+          ""
+        )}
         <section
           className="scrollbar-thin scroll-smooth h-[92vh]
          scrollbar-thumb-[#CDCDCD] max-[650px]:h-max
@@ -113,7 +103,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
                 type="file"
                 id="file"
                 className="hidden"
-                onChange={(e) => uplodeImage(e, setPicture)}
+                onChange={(e) => uploadImage(e, setPicture)}
               />
               <div className="text-sm text-[#94907F] font-bold overflow-hidden">
                 <img
@@ -135,7 +125,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
                   className=" duration-150 text-xs absolute top-[-5.5px] left-2 px-1
                bg-white dark:text-white dark:bg-[#212121] text-[#3390EC] tracking-wide"
                 >
-                  Name(required)
+                  {t("ProfileEdit.Name(required)")}
                 </label>
               ) : (
                 ""
@@ -143,7 +133,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
               <input
                 type="text"
                 value={name}
-                placeholder="Name(required)"
+                placeholder={t("ProfileEdit.Name(required)")}
                 className="dark:text-white w-full px-3 py-2 rounded-lg mt-1 border-2
               hover:border-[#3390EC] bg-transparent dark:border-[#2B2B2B] 
               outline-[#3390EC]  dark:outline-current "
@@ -153,10 +143,10 @@ function ProfileEdit({ setEditProfile, editProfile }) {
             <div className="relative mt-4">
               {bio ? (
                 <label
-                  className=" duration-150 text-xs absolute top-[-5.5px] left-2 px-1
+                  className=" duration-150 text-xs absolute top-[-5.5px] left-2 px- capitalize
                bg-white dark:text-white dark:bg-[#212121] text-[#3390EC] tracking-wide"
                 >
-                  Bio
+                  {t("UserSetting.bio")}
                 </label>
               ) : (
                 ""
@@ -164,25 +154,20 @@ function ProfileEdit({ setEditProfile, editProfile }) {
               <input
                 type="text"
                 value={bio}
-                placeholder="Bio"
+                placeholder={t("UserSetting.bio")}
                 className="dark:text-white w-full px-3 py-2 rounded-lg mt-1 border-2
               hover:border-[#3390EC] bg-transparent dark:border-[#2B2B2B] 
               outline-[#3390EC]  dark:outline-current "
                 onChange={(e) => setBio(e.currentTarget.value)}
               />
             </div>
-            <p
-              className="text-sm text-[#AAAAAA] font-roboto mt-6
-              pb-4
-          "
-            >
-              Any details such as age, occupation or city. Example: 23 y.o.
-              designer from San Francisco
+            <p className="text-sm text-[#AAAAAA] font-roboto mt-6 pb-4 ">
+              {t("ProfileEdit.P1")}
             </p>
           </div>
           <div className="px-5 bg-white  mt-4 py-3 dark:bg-[#212121]">
             <h1 className="dark:text-[#AAAAAA] text-[#707579] mt-4 text-lg font-roboto">
-              Username
+              {t("UserSetting.Username")}
             </h1>
             <div className="relative mt-5">
               {userName ? (
@@ -190,7 +175,7 @@ function ProfileEdit({ setEditProfile, editProfile }) {
                   className=" duration-150 text-sm absolute top-[-5.5px] left-2 px-1
                bg-white dark:text-white dark:bg-[#212121] text-[#3390EC] tracking-wider"
                 >
-                  Username
+                  {t("UserSetting.Username")}
                 </label>
               ) : (
                 ""
@@ -206,16 +191,13 @@ function ProfileEdit({ setEditProfile, editProfile }) {
               />
             </div>
             <p className="text-sm tracking-wider text-[#AAAAAA] font-roboto mt-4">
-              You can choose a username on Telegram. If you do, people will be
-              able to find you by this username and contact you without needing
-              your phone number.
+              {t("ProfileEdit.P2")}
             </p>
             <p className="text-sm tracking-wider text-[#AAAAAA] font-roboto mt-6">
-              You can use a–z, 0–9 and underscores. Minimum length is 5
-              characters.
+              {t("ProfileEdit.P3")}
             </p>
             <p className="text-sm tracking-wider text-[#AAAAAA] font-roboto mt-6">
-              This link opens a chat with you: https://t.me/Ak54262
+              {t("ProfileEdit.P4")}
             </p>
           </div>
         </section>

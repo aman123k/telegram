@@ -1,0 +1,72 @@
+{
+   "Search":"Search",
+    "Message":"Message",
+    "Menubar": {
+       "Saved Messages":"Saved Messages",
+       "Archived Chats":"Archived Chats",
+       "Contacts":"Contacts",
+       "Settings":"Settings",
+       "Night Mode":"Night Mode",
+       "Animations":"Animations",
+       "Telegram Features":"Telegram Features",
+       "Report Bug":"Report Bug",
+       "Switch to K Version":"Switch to K Version",
+       "Switch to Old Version":"Switch to Old Version",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Log Out",
+    "online":"online",
+    "Phone":"Phone",
+    "Username":"Username",
+    "bio":"bio",
+    "General Settings":"General Settings",
+    "Notifications":"Notifications",
+    "Data and Storage":"Data and Storage",
+    "Privacy and Security":"Privacy and Security",
+    "Chat Folders":"Chat Folders",
+    "Devices":"Devices",
+    "Language":"Language",
+    "Stickers and Emoji":"Stickers and Emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Edit profile",
+    "Name(required)":"Name(required)",
+    "P1":"Any details such as age, occupation or city. Example: 23 y.o. designer from San Francisco",
+    "P2":"You can choose a username on Telegram. If you do, people will be able to find you by this username and contact you without needing your phone number.",
+    "P3":" You can use a–z, 0–9 and underscores. Minimum length is 5 characters.",
+    "P4":" This link opens a chat with you: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"General",
+    "Message Text Size":"Message Text Size",
+    "Chat Background":"Chat Background",
+    "Theme":"Theme",
+    "Light":"Light",
+    "Dark":"Dark",
+    "Time Format":"Time Format"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Upload Wallpaper",
+    "Set color":"Set color",
+    "Reset to Defaults":"Reset to Defaults"
+   },
+   "Header":{
+    "last seen":"last seen",
+    "Show Translate Button":"Show Translate Button",
+    "Do Not Translate":"Do Not Translate",
+    "P5":"The 'Translate' button will appear when you open a context menu on a text message."
+   },
+   "SaveMessage":{
+      "Profile":"Profile",
+      "User Info":"User Info",
+      "Notification":"Notification"
+   },
+   "Toast":{
+      "Name":"Name is required",
+      "Username":"Username is required",
+      "success":"Profile Updated successfully"
+   }
+  
+}

@@ -7,7 +7,7 @@ import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 function UserInfo({ id }) {
-  const { profile, setProfile } = useContext(ThemeContext);
+  const { profile, setProfile, t } = useContext(ThemeContext);
   const [notification, setNotification] = useState(false);
   const newUser = users.filter((user) => {
     return user.id.toString() === id;
@@ -20,7 +20,7 @@ function UserInfo({ id }) {
            ${profile ? "translate-x-0" : "translate-x-[200%]"}
           `}
     >
-      <header className="py-0.5 px-5 flex items-center justify-between  select-none h-[8vh]">
+      <header className="py-0.5 px-5 flex items-center justify-between  select-none">
         <div className=" flex gap-6 items-center">
           <button
             className="hover:bg-[#F4F4F4] dark:hover:bg-[#2B2B2B] p-1.5 rounded-full text-[#7C7F82]"
@@ -29,7 +29,7 @@ function UserInfo({ id }) {
             <CloseRoundedIcon />
           </button>
           <p className="font-bold text-xl font-roboto dark:text-white">
-            User Info
+            {t("SaveMessage.User Info")}
           </p>
         </div>
         <button className="hover:bg-[#F4F4F4] dark:hover:bg-[#2B2B2B] p-1.5 rounded-full text-[#7C7F82]">
@@ -62,7 +62,7 @@ function UserInfo({ id }) {
               {newUser[0].name}
             </h2>
             <p className="text-[#d3d5d6] tracking-wide text-sm">
-              last seen {newUser[0].lastSeen}
+              {t("Header.last seen")} {newUser[0].lastSeen}
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ function UserInfo({ id }) {
               <span className=" font-roboto font-normal">
                 {newUser[0].phoneNo}
               </span>
-              <p className="text-[#808488] text-sm">Phone</p>
+              <p className="text-[#808488] text-sm">{t("UserSetting.Phone")}</p>
             </div>
           </div>
           <div
@@ -88,7 +88,9 @@ function UserInfo({ id }) {
               <span className=" font-roboto font-normal">
                 {newUser[0].userName}
               </span>
-              <p className="text-[#808488] text-sm">Username</p>
+              <p className="text-[#808488] text-sm">
+                {t("UserSetting.Username")}
+              </p>
             </div>
           </div>
           <div
@@ -98,7 +100,7 @@ function UserInfo({ id }) {
             <InfoOutlinedIcon className="text-[#808488] " />
             <div>
               <span className=" font-roboto font-normal">{newUser[0].bio}</span>
-              <p className="text-[#808488] text-sm">bio</p>
+              <p className="text-[#808488] text-sm">{t("UserSetting.bio")}</p>
             </div>
           </div>
           <div
@@ -108,7 +110,9 @@ function UserInfo({ id }) {
           >
             <span className=" flex gap-8 ">
               <NotificationsNoneOutlinedIcon className="text-[#808488] " />
-              <span className=" font-roboto font-normal">Notification</span>
+              <span className=" font-roboto font-normal">
+                {t("SaveMessage.Notification")}
+              </span>
             </span>
             <div
               className={` w-8 h-2.5 relative rounded-full 

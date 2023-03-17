@@ -1,0 +1,72 @@
+{
+   "Search":"Huli",
+    "Message":"ʻŌlelo",
+    "Menubar": {
+       "Saved Messages":"Nā memo i mālama ʻia",
+       "Archived Chats":"Kūkākūkā i mālama ʻia",
+       "Contacts":"Hoʻopili",
+       "Settings":"Nā hoʻonohonoho",
+       "Night Mode":"ʻAno pō",
+       "Animations":"Nā mea hoʻolalelale",
+       "Telegram Features":"Nā hiʻohiʻona Telegram",
+       "Report Bug":"Hōʻike Bug",
+       "Switch to K Version":"E hoʻololi iā K Version",
+       "Switch to Old Version":"E hoʻololi iā Old Version",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Lele",
+    "online":"pūnaewele",
+    "Phone":"Kelepona",
+    "Username":"inoa hoʻohana",
+    "bio":"bio",
+    "General Settings":"Nā hoʻonohonoho maʻamau",
+    "Notifications":"Hoolaha",
+    "Data and Storage":"ʻIkepili a me ka waiho ʻana",
+    "Privacy and Security":"Palekana a me ka palekana",
+    "Chat Folders":"Nā waihona kamaʻilio",
+    "Devices":"Nā lakohana",
+    "Language":"ʻŌlelo",
+    "Stickers and Emoji":"Mea hoʻopili a me Emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Hoʻoponopono ʻaoʻao",
+    "Name(required)":"Ka inoa (pono)",
+    "P1":"ʻO nā kikoʻī e like me ka makahiki, ka hana a i ʻole ke kūlanakauhale. Laʻana: 23 y.o. mea hoʻolālā mai Kapalakiko mai",
+    "P2":"Hiki iā ʻoe ke koho i kahi inoa inoa ma Telegram. Inā ʻoe e hana, hiki i nā kānaka ke loaʻa iā ʻoe ma kēia inoa inoa a hoʻopili iā ʻoe me ka ʻole o kāu helu kelepona.",
+    "P3":"Hiki iā ʻoe ke hoʻohana i ka a–z, 0–9 a me nā kaha kaha. ʻO ka lōʻihi liʻiliʻi he 5 huapalapala.",
+    "P4":"Ke wehe nei kēia loulou i kahi kamaʻilio me ʻoe: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Generala",
+    "Message Text Size":"Nui kikokikona memo",
+    "Chat Background":"Kāleka Kūkākūkā",
+    "Theme":"Kumuhana",
+    "Light":"Māmā",
+    "Dark":"Poʻeleʻele",
+    "Time Format":"Hōʻano Manawa"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Hoʻouka i ka Wallpaper",
+    "Set color":"Hoʻonohonoho kala",
+    "Reset to Defaults":"Hoʻihoʻi hou i nā Defaults"
+   },
+   "Header":{
+    "last seen":"ʻike hope loa",
+    "Show Translate Button":"Hōʻike i ke pihi Unuhi",
+    "Do Not Translate":"Mai Unuhi",
+    "P5":"E ʻike ʻia ke pihi 'Unuhi' ke wehe ʻoe i kahi papa kuhikuhi ma ka leka uila."
+   },
+   "SaveMessage":{
+      "Profile":"Pilikino",
+      "User Info":"ʻIke mea hoʻohana",
+      "Notification":"Hoolaha"
+   },
+   "Toast":{
+      "Name":"Pono ka inoa",
+      "Username":"Pono ka inoa hoʻohana",
+      "success":"Ua hoʻopōmaikaʻi ʻia ka moʻolelo"
+   }
+  
+}

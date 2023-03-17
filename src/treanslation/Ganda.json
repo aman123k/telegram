@@ -1,0 +1,72 @@
+{
+   "Search":"Okunoonya",
+    "Message":"Obubaka",
+    "Menubar": {
+       "Saved Messages":"Obubaka Obuterekeddwa",
+       "Archived Chats":"Chats ezikuumiddwa mu tterekero",
+       "Contacts":"Ebikwatagana nabyo",
+       "Settings":"Ensengeka",
+       "Night Mode":"Mode y'ekiro",
+       "Animations":"Ebifaananyi ebirina obulamu",
+       "Telegram Features":"Ebikwata ku Telegram",
+       "Report Bug":"Loopa Ekizibu",
+       "Switch to K Version":"Kyusa ku K Version",
+       "Switch to Old Version":"Kyusa odde ku Nkyusa Enkadde",
+       "Telegram WebZ":"Omukutu gwa Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Okufuluma",
+    "online":"ku mukutu",
+    "Phone":"Essimu",
+    "Username":"Erinnya ly'omukozesa",
+    "bio":"bio",
+    "General Settings":"Ensengeka ez’awamu",
+    "Notifications":"Ebimanyisibwa",
+    "Data and Storage":"Data n’okutereka",
+    "Privacy and Security":"Eby’ekyama n’Obukuumi",
+    "Chat Folders":"Ebitabo by’okukubaganya ebirowoozo",
+    "Devices":"Ebyuma ebikozesebwa",
+    "Language":"Olulimi",
+    "Stickers and Emoji":"Sitika ne Emoji",
+    "Telegram Premium":"Omutindo gwa Telegram"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Edit profile",
+    "Name(required)":"Erinnya(kyetaagisa)",
+    "P1":"Ebikwata ku nsonga yonna ng’emyaka, omulimu oba ekibuga. Okugeza: 23 y.o. omukugu mu kukola dizayini okuva e San Francisco",
+    "P2":"Osobola okulonda erinnya ly’omukozesa ku Telegram. Bw’okola bw’otyo, abantu bajja kusobola okukusanga nga bakozesa erinnya lino ery’omukozesa ne bakutuukirira nga tebeetaaga nnamba yo ey’essimu.",
+    "P3":"Osobola okukozesa a–z, 0–9 n’ennukuta eziri wansi. Obuwanvu obutono buba ennukuta 5.",
+    "P4":"Link eno eggulawo emboozi naawe: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"Okutwaaliza awamu",
+    "Message Text Size":"Sayizi y'Ekiwandiiko ky'Obubaka",
+    "Chat Background":"Ensibuko y'emboozi",
+    "Theme":"Omulamwa",
+    "Light":"Koleeza",
+    "Dark":"Ekizikiza",
+    "Time Format":"Enkola y’Obudde"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Teeka Wallpaper ku mukutu",
+    "Set color":"Teeka langi",
+    "Reset to Defaults":"Ddamu ku Defaults"
+   },
+   "Header":{
+    "last seen":"yasemba okulabibwa",
+    "Show Translate Button":"Laga Button y'okuvvuunula",
+    "Do Not Translate":"Tovvuunula",
+    "P5":"Ekiwandiiko kya ‘Translate’ kijja kulabika ng’oggulawo context menu ku bubaka obuwandiike."
+   },
+   "SaveMessage":{
+      "Profile":"Ebikukwatako",
+      "User Info":"Ebikwata ku mukozesa",
+      "Notification":"Okutegeeza"
+   },
+   "Toast":{
+      "Name":"Erinnya lyetaagisa",
+      "Username":"Erinnya ly'omukozesa lyetaagibwa",
+      "success":"Profile Etereezeddwa bulungi"
+   }
+  
+}

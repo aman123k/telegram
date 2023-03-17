@@ -1,0 +1,72 @@
+{
+   "Search":"Qidirmoq",
+    "Message":"Xabar",
+    "Menubar": {
+       "Saved Messages":"Saqlangan xabarlar",
+       "Archived Chats":"Arxivlangan chatlar",
+       "Contacts":"Kontaktlar",
+       "Settings":"Sozlamalar",
+       "Night Mode":"Tungi rejimi",
+       "Animations":"Animatsiyalar",
+       "Telegram Features":"Telegram xususiyatlari",
+       "Report Bug":"Xato haqida xabar berish",
+       "Switch to K Version":"K versiyasiga o'tish",
+       "Switch to Old Version":"Eski versiyaga o'tish",
+       "Telegram WebZ":"Telegram WebZ 1.50.12"
+    },
+   "UserSetting":{
+    "Log Out":"Chiqish",
+    "online":"onlayn",
+    "Phone":"Telefon",
+    "Username":"Foydalanuvchi nomi",
+    "bio":"bio",
+    "General Settings":"Umumiy sozlamalar",
+    "Notifications":"Bildirishnomalar",
+    "Data and Storage":"Ma'lumotlar va saqlash",
+    "Privacy and Security":"Maxfiylik va xavfsizlik",
+    "Chat Folders":"Chat papkalari",
+    "Devices":"Qurilmalar",
+    "Language":"Til",
+    "Stickers and Emoji":"Stikerlar va emoji",
+    "Telegram Premium":"Telegram Premium"
+   },
+   "ProfileEdit":{
+    "Edit profile":"Profilni tahrirlash",
+    "Name(required)":"Ism (majburiy)",
+    "P1":"Yosh, kasb yoki shahar kabi har qanday ma'lumotlar. Misol: 23 yosh San-Fransiskodan kelgan dizayner",
+    "P2":"Telegramda foydalanuvchi nomini tanlashingiz mumkin. Agar shunday qilsangiz, odamlar sizni ushbu foydalanuvchi nomi orqali topishlari va telefon raqamingizga muhtoj bo'lmasdan siz bilan bog'lanishlari mumkin.",
+    "P3":"Siz a–z, 0–9 va pastki chiziqdan foydalanishingiz mumkin. Minimal uzunlik - 5 ta belgi.",
+    "P4":"Ushbu havola siz bilan suhbatni ochadi: https://t.me/Ak54262"
+   },
+   "General":{
+    "General":"General",
+    "Message Text Size":"Xabar matni hajmi",
+    "Chat Background":"Chat foni",
+    "Theme":"Mavzu",
+    "Light":"Nur",
+    "Dark":"Qorong'i",
+    "Time Format":"Vaqt formati"
+   },
+   "ChatBg":{
+    "Upload Wallpaper":"Fon rasmi yuklab olish",
+    "Set color":"Rangni o'rnatish",
+    "Reset to Defaults":"Asl holatiga qaytarish"
+   },
+   "Header":{
+    "last seen":"oxirgi marta ko'rilgan",
+    "Show Translate Button":"Tarjima tugmasini ko‘rsatish",
+    "Do Not Translate":"Tarjima qilmang",
+    "P5":"Matnli xabarda kontekst menyusini ochganingizda 'Tarjima' tugmasi paydo bo'ladi."
+   },
+   "SaveMessage":{
+      "Profile":"Profil",
+      "User Info":"Foydalanuvchi haqida ma'lumot",
+      "Notification":"Bildirishnoma"
+   },
+   "Toast":{
+      "Name":"Ism talab qilinadi",
+      "Username":"Foydalanuvchi nomi talab qilinadi",
+      "success":"Profil muvaffaqiyatli yangilandi"
+   }
+  
+}

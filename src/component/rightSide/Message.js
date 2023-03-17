@@ -4,7 +4,7 @@ import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 function Message() {
-  const { search, setSearch } = useContext(ThemeContext);
+  const { search, setSearch, t } = useContext(ThemeContext);
   return (
     <div
       className={`
@@ -30,7 +30,7 @@ function Message() {
           <input
             className=" outline-none cursor-text bg-transparent text-black dark:text-white w-[79%]"
             type="text"
-            placeholder="Search"
+            placeholder={t("Search")}
           />
         </div>
         <button className="hover:bg-[#F4F4F4] dark:hover:bg-[#2B2B2B] p-2 text-sm rounded-full text-[#7C7F82]">
