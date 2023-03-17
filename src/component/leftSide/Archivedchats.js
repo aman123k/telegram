@@ -11,6 +11,7 @@ function Archivedchats() {
         `}
     >
       <Header title={t("Menubar.Archived Chats")} setItems={setArchive} />
+      <div className=" dark:bg-[#212121] h-screen w-full dark:border-[#161618] border-r bg-white"></div>
     </div>
   );
 }

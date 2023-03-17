@@ -20,8 +20,8 @@ function UserInfo({ id }) {
            ${profile ? "translate-x-0" : "translate-x-[200%]"}
           `}
     >
-      <header className="py-0.5 px-5 flex items-center justify-between  select-none">
-        <div className=" flex gap-6 items-center">
+      <header className="py-2 px-5 flex items-center justify-between  select-none">
+        <div className=" flex gap-6 items-center ">
           <button
             className="hover:bg-[#F4F4F4] dark:hover:bg-[#2B2B2B] p-1.5 rounded-full text-[#7C7F82]"
             onClick={() => setProfile(false)}
@@ -37,7 +37,7 @@ function UserInfo({ id }) {
         </button>
       </header>
       <section
-        className="overscroll-y scrollbar-thin scroll-smooth 
+        className="overscroll-y scrollbar-thin scroll-smooth mt-0.5 pb-2
          scrollbar-thumb-[#CDCDCD] dark:scrollbar-thumb-[#323232] h-[92vh]"
       >
         <div className="relative ">

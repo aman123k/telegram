@@ -40,7 +40,7 @@ function ChatBg({ chatbg, setChatBg }) {
       >
         <Header title={t("General.Chat Background")} setItems={setChatBg} />
         <div
-          className=" pt-3 scrollbar-thin scrollbar-thumb-[#CDCDCD] select-none
+          className="scrollbar-thin scrollbar-thumb-[#CDCDCD] select-none
           h-[92vh] max-[650px]:h-screen scroll-smooth dark:scrollbar-thumb-[#323232]"
         >
           <div className="bg-white dark:bg-[#212121] pr-3 pt-5 pb-3">
